@@ -1,0 +1,10 @@
+# Versions pinned to match the environment used to train/persist the model.
+# Do NOT casually upgrade scikit-learn / numpy / pandas / joblib: the .joblib file
+# was created with these exact versions.
+scikit-learn==1.6.1
+pandas==2.2.3
+numpy==2.1.3
+joblib==1.6.0
+scipy==1.14.1
+threadpoolctl==3.5.0
+streamlit==1.66.1

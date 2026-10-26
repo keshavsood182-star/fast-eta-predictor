@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Streamlit secrets / local config
+.streamlit/secrets.toml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs and scratch
+*.log
+.ipynb_checkpoints/
+
+# NOTE: zomato_fast_eta_model.joblib and zomato_fast_eta_metadata.json are
+# intentionally NOT ignored - the app needs them at runtime and for deployment.
